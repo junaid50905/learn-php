@@ -6,9 +6,11 @@
     <li>is_bool()</li>
     <li>
         is_callable("add")
+        
         ```php
         function add(){}        
         ```
+        
     </li>
     <li></li>
     <li></li>
