@@ -2,7 +2,26 @@
 
 ## php variable handlinng functions
 <ol>
-    <li>onw</li>
+    <li>is_array()</li>
+    <li>is_bool()</li>
+    <li>is_callable("function_name") -- 	Checks whether the contents of a variable can be called as a function</li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
 </ol>
 ## heredoc
     <!-- 1. the syntex of here doc -->
