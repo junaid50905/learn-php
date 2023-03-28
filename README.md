@@ -1,4 +1,9 @@
 # learn-php
+
+## php variable handlinng functions
+<ol>
+    <li>onw</li>
+</ol>
 ## heredoc
     <!-- 1. the syntex of here doc -->
     ```php
