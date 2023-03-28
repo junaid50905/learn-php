@@ -2,26 +2,30 @@
 
 ## php variable handlinng functions
 <ol>
+    <li>is_scalar()--------scalar variable: int, float, string, bool  ----- not scalar variable: array, object, null, resource</li>
     <li>is_array()</li>
     <li>is_object()</li>
-    <li>is_string()</li>
-    <li>is_bool()</li>
-    <li>is_numeric()------4.3,3,0,-9,3.e4</li>
+    <li>is_null()</li>
+    <li>is_resource()-------is a variable a file or not like .txt,.pdf</li>
     <li>is_int() / is_integer() / is_long()</li>
     <li>is_float() / is_double() / is_real()</li> 
-    <li>is_null()</li>
+    <li>is_string()</li>
+    <li>is_bool()</li>
+    <li>is_numeric()------4.3,3,0,-9,3.e4</li> 
+    
+    
     <li></li>
-    <li>is_resource()-------is a variable a file or not like .txt,.pdf</li>
+    
     <li></li>
     <li></li>
        
     
+    <li>print_r()-------------mainly it is used to read an array</li>
+    <li>var_dump()-----------show detailed(datatype(number of char)data) result of a variable</li>
     <li></li>
     <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
-    <li></li>
+    <li>isset($a)--------------Checks whether a value is set into the variable------set: $a = 0, $a = 'dasd'----not set $a=null</li>
+    <li>empty($a)--------------check a variable is empty or not----------emptyp: $a=0/"" not empty: $a=" "------</li>
     <li>is_iterable()</li>
     <li>is_countable()</li>
     <li>is_callable("add")----function add(){}</li>
