@@ -1,20 +1,25 @@
 # learn-php
-
-<h1>template using heredoc</h1>
+## heredoc
     <!-- 1. the syntex of here doc -->
+    ```php
     <?php
     echo <<<MYCV
                 my name is junaid
             MYCV
     ?>
+    ```
+    
     <!-- 2. we can use html tag in heredoc -->
+    ```php
     <?php
     echo <<<MYCONTENT
                 <h3>this is the heading</h3>
                 <p>this is the content of the heredoc</p>
             MYCONTENT;
     ?>
+    ```
     <!-- 3. we can use variable -->
+    ```php
     <?php
     $name = "junaid";
     $age = 24;
@@ -26,7 +31,9 @@
             MYRESUME;
 
     ?>
+    ```
     <!-- 4. we can put the heredoc into a variable -->
+    ```php
     <?php
         $content = <<<CONTENT
                         <p>here is the content of the content</p>
@@ -34,3 +41,4 @@
                       echo $content;
     
     ?>
+    ```
