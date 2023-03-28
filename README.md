@@ -4,7 +4,12 @@
 <ol>
     <li>is_array()</li>
     <li>is_bool()</li>
-    <li>is_callable("function_name") -- 	Checks whether the contents of a variable can be called as a function</li>
+    <li>
+        is_callable("add")
+        ```php
+        function add(){}        
+        ```
+    </li>
     <li></li>
     <li></li>
     <li></li>
