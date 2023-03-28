@@ -13,8 +13,7 @@
     <li>is_bool()</li>
     <li>is_numeric()------4.3,3,0,-9,3.e4</li>     
     <li>gettype()----------return the type of a variable</li>
-    
-    <li></li>
+    <li>settype($a, "integer")-----------set/change the data type of a variable----$a=12; settype($a, "string"); now $a is string</li>
     <li></li>
        
     
