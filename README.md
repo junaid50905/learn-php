@@ -29,6 +29,26 @@
     <li></li>
     <li></li>
 </ol>
+
+
+## php string handling function
+<ol>
+    <li>addcslashes("Hello World!","W");---------output: Hello \World!</li>
+    <li>substr(string, start_index, length)
+        <ul>
+            <li>echo substr("this is junaid and i am a student",0,10);----</li>
+        </ul>
+    </li>
+</ol>
+
+
+
+
+
+
+
+
+
 ## heredoc
     <!-- 1. the syntex of here doc -->
     ```php
