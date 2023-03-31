@@ -14,18 +14,13 @@
     <li>is_numeric()------4.3,3,0,-9,3.e4</li>     
     <li>gettype()----------return the type of a variable</li>
     <li>settype($a, "integer")-----------set/change the data type of a variable----$a=12; settype($a, "string"); now $a is string</li>
-    <li></li>
-       
-    
     <li>print_r()-------------mainly it is used to read an array</li>
     <li>var_dump() / var_export() -----------show detailed(datatype(number of char)data) result of a variable</li>
-    <li></li>
-    <li></li>
     <li>isset($a)--------------Checks whether a value is set into the variable------set: $a = 0, $a = 'dasd'----not set $a=null</li>
     <li>empty($a)--------------check a variable is empty or not----------emptyp: $a=0/"" not empty: $a=" "------</li>
     <li>unset()------------unset a variable------$a=4----unset($a)----echo $a---now $a is empty</li>
-    <li>is_iterable()</li>
-    <li>is_countable()</li>
+    <li>is_iterable()------------an array is iterable,--------string,int,float are not iterable</li>
+    <li>is_countable()-----------array is countable----------string,int,float are not countable</li>
     <li>is_callable("add")----function add(){}</li>
     <li></li>
     <li></li>
