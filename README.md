@@ -33,12 +33,18 @@
 
 ## php string handling function
 <ol>
+    <li>strlen(string)---------return the length of an string-</li>
     <li>addcslashes("Hello World!","W");---------output: Hello \World!</li>
     <li>substr(string, start_index, length)
         <ul>
-            <li>echo substr("this is junaid and i am a student",0,10);----</li>
+            <li>echo substr("this is junaid and i am a student",3,20);----start 0 end 20</li>
+            <li>substr(string, 20)------start 20 index to end</li>
         </ul>
     </li>
+    <li>strpos(string,find,start)------------return the position of the first occurrence------echo strpos("I love php, I love php too!","php");-----output: 7</li>
+    <li>strrpos() - find the position of the last occurrence---------echo strrpos("I love php, I love php too!","php");-----output: 19</li>
+    <li>str_replace(find,replace,string,count)---------str_replace("world","Peter","Hello world!")------Hello Peter--</li>
+    <li>trim(string)-------Removes whitespace or other predefined characters from both side ---ltrim()/rtrim()</li>
 </ol>
 
 
