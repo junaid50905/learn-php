@@ -34,6 +34,11 @@
 ## php string handling function
 <ol>
     <li>strlen(string)---------return the length of an string-</li>
+    <li>strtolower()</li>
+    <li>lcfirst() - converts the first character of a string to lowercase</li>
+    <li>strtoupper()</li>
+    <li>ucfirst()-  converts the first character of a string to uppercase</li>
+    <li>ucwords() - converts the first character of each word in a string to uppercase</li>
     <li>addcslashes("Hello World!","W");---------output: Hello \World!</li>
     <li>substr(string, start_index, length)
         <ul>
@@ -41,6 +46,7 @@
             <li>substr(string, 20)------start 20 index to end</li>
         </ul>
     </li>
+    <li>echo strstr("junaidhossain@gmail.com", "ho");------output:hossain@gmail.com------startstring</li>
     <li>strpos(string,find,start)------------return the position of the first occurrence------echo strpos("I love php, I love php too!","php");-----output: 7</li>
     <li>strrpos() - find the position of the last occurrence---------echo strrpos("I love php, I love php too!","php");-----output: 19</li>
     <li>str_replace(find,replace,string,count)---------str_replace("world","Peter","Hello world!")------Hello Peter--</li>
