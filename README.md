@@ -85,11 +85,6 @@
 
 
 
-
-
-
-
-
 ## heredoc
     <!-- 1. the syntex of here doc -->
     ```php
@@ -136,7 +131,12 @@
     
     
     
-    
+   ## super global variable in php
+   
+   ### $_SERVER[]
+   ### $_REQUEST["input_name"]--> which is used to collect data after submitting an HTML form. method: get/post
+   ### $_POST["input_name]--> used to collect data after submitting html form . method: post
+   ### $_POST["input_name]--> used to collect data after submitting html form . method: post
     
     
     
