@@ -63,19 +63,23 @@
 ### define(name,value,case_insensitive)
     - Names should be in uppercase letters; name can be start with _(like: _DB)
     - case_insensitive : true- case_insensitive false: case_sensitive(default)
-    ```php
+    
+    example
+    ------------
     define("DB", "localhost");
     echo DB;
     
-    ```
+
     
     ### const
-    ```php
     
+    example
+    -----------
     const DB = "localhost_localhost";
     echo DB;
 
-```
+    there are some difference between define and const. But we always use <b>define</b> for constant
+
     
 
 
