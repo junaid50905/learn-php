@@ -56,6 +56,24 @@
 
 
 
+## connstant variable in php
+- constant variable are global variable
+- we can't change the constant variable value
+
+### define(name,value,case_insensitive)
+    - Names should be in uppercase letters; name can be start with _(like: _DB)
+    - case_insensitive : true- case_insensitive false: case_sensitive(default)
+    ```
+    define("DB", "localhost");
+    echo DB;
+    
+    
+    ```
+    
+
+
+
+
 
 
 
