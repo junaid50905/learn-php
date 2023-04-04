@@ -146,7 +146,7 @@ echo X;
     syntext
     ------------
     (data type) value
-    - (int / integer) 3.2111            //// 3
+    - echo (int / integer) 3.2111            //// 3
     -(float / double / real) "3.323"       ////3.323
     - (boolean / bool) 32       //// 1
     - (string) 32.32  //"32.32"
