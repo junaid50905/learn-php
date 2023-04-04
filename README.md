@@ -116,7 +116,21 @@ echo X;
 
 ```
 
+## Data  types and type casting
 
+#### 4 scalar types
+    - int
+    - float
+    - string
+    - bool
+#### 4 compound type
+    - array
+    - object
+    - callable
+    - iterable
+#### 2 special types
+    - resource
+    - null
 
 
 ## heredoc
