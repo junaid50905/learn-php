@@ -54,6 +54,12 @@
 </ol>
 
 
+## array methods
+<ol>
+    <li>count(array)------------return the length of an array</li>
+</ol>
+
+
 
 
 ## connstant variable in php
