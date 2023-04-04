@@ -140,6 +140,17 @@ echo X;
     - echo "10junaid" + 10   /// 10 + 10 (because php engine first get 10 and ignore the string then add with 10)
     - echo "junaid10" + 10   /// 0 + 10 (because php engine first get string and php take string as 0 and php does not read 10 that with junaid)
     
+    
+#### explicit type casting is done by programmer
+
+    syntext
+    ------------
+    (data type) value
+    - (int / integer) 3.2111            //// 3
+    -(float / double / real) "3.323"       ////3.323
+    - (boolean / bool) 32       //// 1
+    - (string) 32.32  //"32.32"
+    
 
 
 
