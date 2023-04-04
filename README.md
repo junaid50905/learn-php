@@ -87,6 +87,7 @@
 | const     | define |
 | ------------- | ------------- |
 | define constant at compile time  | define constant at run time |
+| only hold scalar values(int,float,string,bool) or array  | any php valid expression including scalar,array,function |
     
 
 
