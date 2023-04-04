@@ -133,6 +133,17 @@ echo X;
     - null
 
 
+### type casting refers to convert one data type to another. PHP supports several type casting methods, including implicit and explicit type casting.
+
+#### implicit type casting : php engine automatically convert one data type to another, which is known as implicit type casting
+    - echo 2 + 3.4  /// 2.0 + 3.4
+    - echo "10junaid" + 10   /// 10 + 10 (because php engine first get 10 and ignore the string then add with 10)
+    - echo "junaid10" + 10   /// 0 + 10 (because php engine first get string and php take string as 0 and php does not read 10 that with junaid)
+    
+
+
+
+
 ## heredoc
     <!-- 1. the syntex of here doc -->
     ```php
