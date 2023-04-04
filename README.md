@@ -88,7 +88,31 @@
 | ------------- | ------------- |
 | define constant at compile time  | define constant at run time |
 | only hold scalar values(int,float,string,bool) or array  | any php valid expression including scalar,array,function |
+
+compile time
+-----------
+```
+<?php
+    $a=10;
+if($a===10){
+    const X = 13;
+}
+echo X;
+// it will give a syntex error
+?>
+run time
+-----------
+<?php
+    $a=10;
+if($a===10){
+    define("X", 12);
+}
+echo X;
+// output: 12
+?>
     
+
+```
 
 
 
