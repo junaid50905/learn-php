@@ -83,9 +83,10 @@
     -----------
     const DB = "localhost_localhost";
     echo DB;
-
-    there are some difference between define and const. But we always use <b>define</b> for constant
-
+#### difference between const and define
+| const     | define |
+| ------------- | ------------- |
+| define constant at compile time  | define constant at run time |
     
 
 
