@@ -263,7 +263,31 @@ religion----->islam
 # PHP advanced
 ---------------------------------------------
 ## date and time
-    echo date(format, timestamp)
+
+### date(format, timestamp)
+    date
+    ------
+    echo date('Y-m-d');   // 2023-12-09
+    // Y----year like 2023
+    // y----year like 23
+    // m----month like 12
+    // d----day   like 03
+    // l-----day name like wednessday
+    echo date('h:i:s a'); // 12:29:34 am----- take time from server. this is not real time
+    // h-----hour like 1-12
+    // H------hour like 0-23
+    // i ----- minutes like 00-59
+    // s-------seconds like 00-59
+    //a---------like am/pm
+    //A--------like AM/PM
+
+    
+    
+    
+### time()
+    
+ 
+ 
 ## file include
 
 | include  | require |
