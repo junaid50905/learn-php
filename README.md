@@ -62,6 +62,7 @@
 
 
 
+
 ## connstant variable in php
 - constant variable are global variable
 - we can't change the constant variable value
@@ -153,6 +154,21 @@ echo X;
     
 
 
+## array
+### indexed array
+```
+<?php
+$arr = ['junaid', 'arman', 'hossain', 'saber'];
+foreach($arr as $item){
+    echo "name: $item <br>";
+}
+?>
+output: 
+name: junaid
+name: arman
+name: hossain
+name: saber
+```
 
 
 ## heredoc
