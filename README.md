@@ -173,6 +173,7 @@ name: saber
 ```
 
 
+
 ```
 2 indexed array with index number
 --------------------------------
@@ -182,7 +183,11 @@ foreach($arr as $key=> $item){
     echo "$key ------> name----> $item <br>";
 }
 ?>
-
+output:
+0 ------> name----> junaid
+1 ------> name----> arman
+2 ------> name----> hossain
+3 ------> name----> saber
 
 ```
 
