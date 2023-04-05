@@ -273,7 +273,8 @@ religion----->islam
     // m----month like 12
     // d----day   like 03
     // l-----day name like wednessday
-    
+    |
+    |
     time
     -------
     echo date('h:i:s a'); // 12:29:34 am----- take time from server. this is not real time
@@ -283,12 +284,19 @@ religion----->islam
     // s-------seconds like 00-59
     //a---------like am/pm
     //A--------like AM/PM
-    
-    
-    get time of a specific location
-    --------------------------
-    date_default_timezone_set("America/New_York");
+    |
+    |
+    get time of a specific location with date_default_timezone_set(timezone);
+    ----------------------------------
+    date_default_timezone_set("asia/dhaka");
     echo "The time is " . date("h:i:sa");
+    now, it will give us a proper time <a href="https://www.php.net/manual/en/timezones.php">timezones</a>
+    |
+    |
+    make a date time using mktime(hour, minute, second, month, day, year)
+    -----------------------
+    $d=mktime(11, 14, 54, 8, 12, 2014);
+    echo "Created date is " . date("Y-m-d h:i:sa", $d);
     
 
     
