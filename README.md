@@ -262,7 +262,8 @@ religion----->islam
 ---------------------------------------------
 # PHP advanced
 ---------------------------------------------
-
+## date and time
+    echo date(format, timestamp)
 ## file include
 
 | include  | require |
