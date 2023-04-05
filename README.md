@@ -273,6 +273,9 @@ religion----->islam
     // m----month like 12
     // d----day   like 03
     // l-----day name like wednessday
+    
+    time
+    -------
     echo date('h:i:s a'); // 12:29:34 am----- take time from server. this is not real time
     // h-----hour like 1-12
     // H------hour like 0-23
@@ -280,11 +283,15 @@ religion----->islam
     // s-------seconds like 00-59
     //a---------like am/pm
     //A--------like AM/PM
+    
+    
+    get time of a specific location
+    --------------------------
+    date_default_timezone_set("America/New_York");
+    echo "The time is " . date("h:i:sa");
+    
 
     
-    
-    
-### time()
     
  
  
