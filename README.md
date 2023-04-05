@@ -51,6 +51,7 @@
     <li>strrpos() - find the position of the last occurrence---------echo strrpos("I love php, I love php too!","php");-----output: 19</li>
     <li>str_replace(find,replace,string,count)---------str_replace("world","Peter","Hello world!")------Hello Peter--</li>
     <li>trim(string)-------Removes whitespace or other predefined characters from both side ---ltrim()/rtrim()</li>
+    <li>explode()------breaks/convert a string into an array-------$str = "Hello world. It's a beautiful day.";--------print_r (explode(" ",$str));---------meaning: string er jei khane space pabe seikhane ekti array item korbe-------output: Array ( [0] => Hello [1] => world. [2] => It's [3] => a [4] => beautiful [5] => day. )</li>
 </ol>
 
 
