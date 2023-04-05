@@ -191,6 +191,25 @@ output:
 
 ```
 
+### associative array
+
+```
+<?php
+$arr = [
+    'name'=> 'junaid',
+    'age'=> '24',
+    'religion'=> 'islam',
+];
+foreach($arr as $key=> $item){
+    echo "$key----->$item <br>";
+}
+?>
+output:
+name----->junaid
+age----->24
+religion----->islam
+```
+
 ## heredoc
     <!-- 1. the syntex of here doc -->
     ```php
