@@ -157,6 +157,8 @@ echo X;
 ## array
 ### indexed array
 ```
+1 
+----------
 <?php
 $arr = ['junaid', 'arman', 'hossain', 'saber'];
 foreach($arr as $item){
@@ -170,6 +172,19 @@ name: hossain
 name: saber
 ```
 
+
+```
+2 indexed array with index number
+--------------------------------
+<?php
+$arr = ['junaid', 'arman', 'hossain', 'saber'];
+foreach($arr as $key=> $item){
+    echo "$key ------> name----> $item <br>";
+}
+?>
+
+
+```
 
 ## heredoc
     <!-- 1. the syntex of here doc -->
