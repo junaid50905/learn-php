@@ -290,7 +290,7 @@ religion----->islam
     ----------------------------------
     date_default_timezone_set("asia/dhaka");
     echo "The time is " . date("h:i:sa");
-    now, it will give us a proper time <a href="https://www.php.net/manual/en/timezones.php">timezones</a>
+    now, it will give us a proper time  timezones: https://www.php.net/manual/en/timezones.php" 
     |
     |
     make a date time using mktime(hour, minute, second, month, day, year)
