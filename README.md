@@ -259,6 +259,18 @@ religion----->islam
 ```
 
 
+---------------------------------------------
+# PHP advanced
+---------------------------------------------
+
+## file include
+
+| include  | require |
+| ------------- | ------------- |
+| execution of the script continues when an error occured  | execution of the script stops when an error occured   |
+| we will use this | not |
+
+once---- amra ekta file jotobar ei include_once ba require_once kori na keno, just ekbar ei file ti pabe. sobar uporer file ti beshi priority pabe.
     
     
    ## super global variable in php
