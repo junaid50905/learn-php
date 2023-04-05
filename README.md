@@ -1,4 +1,5 @@
 # learn-php
+-------------------------------------------------------------
 
 ## php variable handlinng functions
 <ol>
@@ -138,7 +139,7 @@ echo X;
 
 ### type casting refers to convert one data type to another. PHP supports several type casting methods, including implicit and explicit type casting.
 
-#### implicit type casting : php engine automatically convert one data type to another, which is known as implicit type casting
+#### implicit type casting / type juggling : php engine automatically convert one data type to another, which is known as implicit type casting
     - echo 2 + 3.4  /// 2.0 + 3.4
     - echo "10junaid" + 10   /// 10 + 10 (because php engine first get 10 and ignore the string then add with 10)
     - echo "junaid10" + 10   /// 0 + 10 (because php engine first get string and php take string as 0 and php does not read 10 that with junaid)
@@ -155,7 +156,52 @@ echo X;
     - (string) 32.32  //"32.32"
     
 
+## heredoc
+    <!-- 1. the syntex of here doc -->
+    ```php
+    <?php
+    echo <<<MYCV
+                my name is junaid
+            MYCV
+    ?>
+    ```
+    
+    <!-- 2. we can use html tag in heredoc -->
+    ```php
+    <?php
+    echo <<<MYCONTENT
+                <h3>this is the heading</h3>
+                <p>this is the content of the heredoc</p>
+            MYCONTENT;
+    ?>
+    ```
+    <!-- 3. we can use variable -->
+    ```php
+    <?php
+    $name = "junaid";
+    $age = 24;
+    $university = "Uttara University";
 
+    echo <<<MYRESUME
+                My name is $name and i am $age old. I am doing BSc in CSE forom $university;
+
+            MYRESUME;
+
+    ?>
+    ```
+    <!-- 4. we can put the heredoc into a variable -->
+    ```php
+    <?php
+        $content = <<<CONTENT
+                        <p>here is the content of the content</p>
+                      CONTENT;
+                      echo $content;
+    
+    ?>
+    ```
+    
+    
+    
 ## array
 ### indexed array
 ```
@@ -212,50 +258,7 @@ age----->24
 religion----->islam
 ```
 
-## heredoc
-    <!-- 1. the syntex of here doc -->
-    ```php
-    <?php
-    echo <<<MYCV
-                my name is junaid
-            MYCV
-    ?>
-    ```
-    
-    <!-- 2. we can use html tag in heredoc -->
-    ```php
-    <?php
-    echo <<<MYCONTENT
-                <h3>this is the heading</h3>
-                <p>this is the content of the heredoc</p>
-            MYCONTENT;
-    ?>
-    ```
-    <!-- 3. we can use variable -->
-    ```php
-    <?php
-    $name = "junaid";
-    $age = 24;
-    $university = "Uttara University";
 
-    echo <<<MYRESUME
-                My name is $name and i am $age old. I am doing BSc in CSE forom $university;
-
-            MYRESUME;
-
-    ?>
-    ```
-    <!-- 4. we can put the heredoc into a variable -->
-    ```php
-    <?php
-        $content = <<<CONTENT
-                        <p>here is the content of the content</p>
-                      CONTENT;
-                      echo $content;
-    
-    ?>
-    ```
-    
     
     
    ## super global variable in php
