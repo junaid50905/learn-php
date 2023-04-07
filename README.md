@@ -313,13 +313,26 @@ religion----->islam
 once---- amra ekta file jotobar ei include_once ba require_once kori na keno, just ekbar ei file ti pabe. sobar uporer file ti beshi priority pabe.
     
     
-   ## super global variable in php
+## File handling
+    #### readfile("filename.ext")
+    ```
+        echo readfile("info.txt");
+        
+    ```
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+## super global variable in php
    
- ## File handling
- 
- <ol>
-    <li>echo readfile("filename.ext")------------to read a file;</li>
- </ol>
+
    
 ### $_SERVER[]
 ### $_REQUEST["input_name"]--> which is used to collect data after submitting an HTML form. method: get/post
