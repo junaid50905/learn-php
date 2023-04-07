@@ -262,7 +262,7 @@ religion----->islam
 ---------------------------------------------
 # PHP advanced
 ---------------------------------------------
-## date and time
+## Date andTime
 
 ### date(format, timestamp)
     date
@@ -303,7 +303,7 @@ religion----->islam
     
  
  
-## file include
+## File include
 
 | include  | require |
 | ------------- | ------------- |
@@ -315,10 +315,16 @@ once---- amra ekta file jotobar ei include_once ba require_once kori na keno, ju
     
    ## super global variable in php
    
-   ### $_SERVER[]
-   ### $_REQUEST["input_name"]--> which is used to collect data after submitting an HTML form. method: get/post
-   ### $_POST["input_name]--> used to collect data after submitting html form . method: post
-   ### $_POST["input_name]--> used to collect data after submitting html form . method: post
+ ## File handling
+ 
+ <ol>
+    <li>echo readfile("filename.ext")------------to read a file;</li>
+ </ol>
+   
+### $_SERVER[]
+### $_REQUEST["input_name"]--> which is used to collect data after submitting an HTML form. method: get/post
+### $_POST["input_name]--> used to collect data after submitting html form . method: post
+### $_POST["input_name]--> used to collect data after submitting html form . method: post
     
     
     
