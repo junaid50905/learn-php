@@ -314,7 +314,7 @@ once---- amra ekta file jotobar ei include_once ba require_once kori na keno, ju
     
     
 ## File handling
-    #### readfile("filename.ext")
+#### readfile("filename.ext")
    
         echo readfile("info.txt");
         
