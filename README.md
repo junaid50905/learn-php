@@ -58,9 +58,16 @@
 
 
 ## array methods
-<ol>
-    <li>count(array)------------return the length of an array</li>
-</ol>
+
+1. count(array)------------return the length of an array
+
+2/3. current($array)/end($array)
+    
+    $arr= ['jpg', 'jpeg', 'png'];
+    echo current($arr);
+    echo '<br>';
+    echo end($arr);
+
 
 
 ## file system
