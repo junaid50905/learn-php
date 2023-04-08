@@ -62,7 +62,6 @@
 1. count(array)------------return the length of an array
 
 2/3. current($array)/end($array)
-
 current return the first item and end return the last item of an array
     
     $arr= ['jpg', 'jpeg', 'png'];
