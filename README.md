@@ -63,7 +63,11 @@
 </ol>
 
 
+## file system
 
+<ol>
+    <li>move_uploaded_file(file, destination)----------moves an uploaded file to a new destination.</li>
+</ol>
 
 
 ## connstant variable in php
