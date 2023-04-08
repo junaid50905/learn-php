@@ -60,12 +60,15 @@
 ## array methods
 
 1. count(array)------------return the length of an array
+
 2/3. current($array)/end($array)
+
+current return the first item and end return the last item of an array
     
     $arr= ['jpg', 'jpeg', 'png'];
-    echo current($arr);
+    echo current($arr); // jpg
     echo '<br>';
-    echo end($arr);
+    echo end($arr);    // png
 
 
 
