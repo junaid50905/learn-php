@@ -62,12 +62,17 @@
 1/ md5(string,raw)        
 raw: i)FALSE - Default. 32 character hex number, ii)TRUE - 16 character binary format
 it is easy to hack using rainbow tables, we will always avoid this methods
+
 example:
+-------------
 <?php
 $str = "Hello";
 echo md5($str);
 ?> 
+
 output: 8b1a9953c4611296a827abf8c47804d7
+
+2/ 
 
 
 
