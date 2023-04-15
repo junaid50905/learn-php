@@ -72,7 +72,7 @@ echo md5($str);
 ?> 
 
 output: 8b1a9953c4611296a827abf8c47804d7
-
+============================================================================
 2/ sha1(string,raw)
 raw: i)FALSE - Default. 40 character hex number ii)TRUE - Raw 20 character binary format
 it uses the Secure Hash Algorithm 1
@@ -85,6 +85,8 @@ echo sha1($str);
 ?>
 
 output: f7ff9e8b7bb2e09b70935a5d785e0cc5d9d0abf0
+===================================================================================
+
 
 
 
