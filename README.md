@@ -56,6 +56,14 @@
     <li>implode(separator, $arr)/join()---------returns a string from the elements of an array.--------$arr =['Hello','World!','Beautiful','Day!']---------output:Hello, World!, Beautiful, Day!;</li>
 </ol>
 
+#### password hashing methods
+<ol>
+    <li>
+        md5(string,raw)
+        raw: FALSE - Default. 32 character hex number, TRUE - 16 character binary format
+    </li>
+</ol>
+
 
 ## array methods
 
