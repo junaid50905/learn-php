@@ -57,14 +57,11 @@
 </ol>
 
 #### password hashing methods
-<pre>
-<ol>
-    <li>
-        md5(string,raw)        
-        raw: FALSE - Default. 32 character hex number, TRUE - 16 character binary format
-    </li>
-</ol>
-</pre>
+
+```
+md5(string,raw)        
+raw: i)FALSE - Default. 32 character hex number, ii)TRUE - 16 character binary format
+```
 
 
 ## array methods
