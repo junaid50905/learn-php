@@ -60,8 +60,7 @@
 <pre>
 <ol>
     <li>
-        md5(string,raw)
-        
+        md5(string,raw)        
         raw: FALSE - Default. 32 character hex number, TRUE - 16 character binary format
     </li>
 </ol>
