@@ -88,6 +88,23 @@ output: f7ff9e8b7bb2e09b70935a5d785e0cc5d9d0abf0
 ===================================================================================
 
 
+3/ proper way to hash password psudo code
+registration.php
+------------------
+$email = '';
+$password ='';
+$hash = password_verify($password, PASSWORD_BCRYPT);
+$sql = INSERT INTO table_name(username, password) VALUES ($email, $hash);
+
+login.php
+------------
+$hashpassword = ''; // registration korar porer hash password //sql 
+$password = ''; // login korar somoy user jei password debe
+if(password_verify($password,$hashpassword){
+    echo "login";
+}else{
+    echo "incorrect email or password"
+}
 
 
 
