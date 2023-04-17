@@ -353,6 +353,45 @@ The array_pop() function deletes the last element of an array.
     print_r($arr);
 ```
 
+#### 15 / array_unshift(array, value1, value2, value3, ...)
+Insert new elements to the beginning of an array.
+```
+$arr = [2, 4, 7, 8.4, 2];
+array_unshift($arr, 232);
+echo "<pre>";
+print_r($arr);
+
+output
+------
+Array
+(
+    [0] => 232
+    [1] => 2
+    [2] => 4
+    [3] => 7
+    [4] => 8.4
+    [5] => 2
+)
+```
+
+#### 16/ array_shift(array)
+Remove an element to the beginning of an array.
+```
+$arr = [2, 4, 7, 8.4, 2];
+array_shift($arr);
+echo "<pre>";
+print_r($arr);
+
+output
+--------
+Array
+(
+    [0] => 4
+    [1] => 7
+    [2] => 8.4
+    [3] => 2
+)
+```
 ## file system
 
 <ol>
