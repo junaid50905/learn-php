@@ -155,7 +155,50 @@ case
         )
  
  ```
-#### 4/ 
+#### 5/ array_chunk(array, size, preserve_key)
+```
+<?php
+    /*        
+        The array_chunk() function splits an array into chunks of new arrays.
+    */
+    $arr = [1,3,4,5,6,8,1,2,7,2,1];
+    $arr = array_chunk($arr, 3);
+    echo "<pre>";
+    print_r($arr);
+    
+    output
+    --------
+    Array
+(
+    [0] => Array
+        (
+            [0] => 1
+            [1] => 3
+            [2] => 4
+        )
+
+    [1] => Array
+        (
+            [0] => 5
+            [1] => 6
+            [2] => 8
+        )
+
+    [2] => Array
+        (
+            [0] => 1
+            [1] => 2
+            [2] => 7
+        )
+
+    [3] => Array
+        (
+            [0] => 2
+            [1] => 1
+        )
+
+)
+```
 
 
 
