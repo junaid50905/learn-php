@@ -199,7 +199,63 @@ case
 
     )
 ```
+#### 6/ array_column(array, column_key, index_key)
+The array_column() function returns the values from a single column in the input array.
+```
+$arr = [
+        [
+            'id' => 3232,
+            'name' => 'junaid',
+            'location' => 'Gazipur',
+        ],
+        [
+            'id' => 232,
+            'name' => 'arman',
+            'location' => 'Dhaka',
+        ]
+    ];
+    $arr = array_column($arr, 'name');
+    echo "<pre>";
+    print_r($arr);
+    
+    oupput:
+    ---------
+    Array
+        (
+            [0] => junaid
+            [1] => arman
+        )
+        
+        
+---------------------------------        
+another example with index_key
 
+we will get array with index_key
+----------------------------------
+$arr = [
+        [
+            'id' => 3232,
+            'name' => 'junaid',
+            'location' => 'Gazipur',
+        ],
+        [
+            'id' => 232,
+            'name' => 'arman',
+            'location' => 'Dhaka',
+        ]
+    ];
+    $arr = array_column($arr, 'name', 'id');
+    echo "<pre>";
+    print_r($arr);
+    
+    output:
+    ----------
+    Array
+        (
+            [3232] => junaid
+            [232] => arman
+        )
+```
 
 
 ## file system
