@@ -257,6 +257,24 @@ $arr = [
         )
 ```
 
+#### 7/ array_combine(keys, values)
+Creates a new array with keys array and values array
+```
+$keys = ['id', 'name', 'location'];
+    $values = [3123, 'junaid', 'Gazipur'];
+    $combine_arr = array_combine($keys, $values);
+    echo "<pre>";
+    print_r($combine_arr);
+    
+    output
+    ---------
+    Array
+        (
+            [id] => 3123
+            [name] => junaid
+            [location] => Gazipur
+        )
+```
 
 ## file system
 
