@@ -116,7 +116,15 @@ if(password_verify($password,$hashpassword){
 ## array methods
 
 1. count(array)------------return the length of an array
-2. array_change_key_case(array, case) <br/>
+2. 2/3. current($array)/end($array)
+current return the first item and end return the last item of an array
+    
+    $arr= ['jpg', 'jpeg', 'png'];
+    echo current($arr); // jpg
+    echo '<br>';
+    echo end($arr);    // png
+
+4. array_change_key_case(array, case) <br/>
 The array_change_key_case() function changes all keys in an array to lowercase or uppercase.
 
 case
@@ -124,14 +132,30 @@ case
     Optional. Possible values:
         - CASE_LOWER - Default value. Changes the keys to lowercase
         - CASE_UPPER - Changes the keys to uppercase
-
-2/3. current($array)/end($array)
-current return the first item and end return the last item of an array
+ ```
+ example
+ ---------
+ <?php
+    $arr = [
+        'name'     => 'junaid',
+        'LOcATIon' => 'Gazipur',
+        'phoNE'    => '012********',
+    ];
+    $arr = array_change_key_case($arr, CASE_UPPER);
+    echo "<pre>";
+    print_r($arr);
     
-    $arr= ['jpg', 'jpeg', 'png'];
-    echo current($arr); // jpg
-    echo '<br>';
-    echo end($arr);    // png
+    output
+    -------
+    Array
+        (
+            [name] => junaid
+            [location] => Gazipur
+            [phone] => 012********
+        )
+ 
+ ```
+
 
 
 
