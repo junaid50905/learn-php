@@ -320,7 +320,29 @@ find the minimum and maximum value of an array
     else 0
 ```
 
+#### 13/ array_push(array, value1, value2, ...)
+The array_push() function inserts one or more elements to the end of an array.
+```
+$arr = [2, 4, 7, 8.4, 2];
+array_push($arr, 121);
+echo "<pre>";
+print_r($arr);
 
+
+output
+-------
+Array
+(
+    [0] => 2
+    [1] => 4
+    [2] => 7
+    [3] => 8.4
+    [4] => 2
+    [5] => 121
+)
+
+
+```
 
 ## file system
 
