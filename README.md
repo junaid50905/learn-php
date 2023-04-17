@@ -295,6 +295,20 @@ Array
 )
 
 ```
+
+#### 9/10 min($arr) and max($arr)
+find the minimum and maximum value of an array
+
+```
+    $arr = [2,4,7,8.4,2];
+    echo "the maximum value is :".max($arr);
+    echo '<br>';
+    echo "the minimum value is :".min($arr);
+```
+
+
+
+
 ## file system
 
 <ol>
