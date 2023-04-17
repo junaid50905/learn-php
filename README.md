@@ -276,6 +276,25 @@ $keys = ['id', 'name', 'location'];
         )
 ```
 
+#### 8 / array_count_values(array)
+counts all values of an array. In the following example, we see that cat is 2 times, dog is 1 time, snake is 1 time, rat is 1 time
+```
+$arr = ['cat', 'dog', 'cat', 'snake', 'rat'];
+echo "<pre>";
+print_r(array_count_values($arr));
+
+
+output
+----------
+Array
+(
+    [cat] => 2
+    [dog] => 1
+    [snake] => 1
+    [rat] => 1
+)
+
+```
 ## file system
 
 <ol>
