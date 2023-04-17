@@ -306,6 +306,19 @@ find the minimum and maximum value of an array
     echo "the minimum value is :".min($arr);
 ```
 
+#### 11 / is_array(array)
+    if array return 1
+    else 0
+
+
+#### 12 / in_array(search, array)
+```
+    $arr = [2,4,7,8.4,2];
+    echo in_array(2, $arr);
+    
+    if 2 is in the array return 1
+    else 0
+```
 
 
 
