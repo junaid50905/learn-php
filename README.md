@@ -149,9 +149,9 @@ case
     -------
     Array
         (
-            [name] => junaid
-            [location] => Gazipur
-            [phone] => 012********
+            [NAME] => junaid
+            [LOCATION] => Gazipur
+            [PHONE] => 012********
         )
  
  ```
