@@ -118,9 +118,9 @@ if(password_verify($password,$hashpassword){
 1. count(array)------------return the length of an array
 2. array_change_key_case(array, case) <br/>
 The array_change_key_case() function changes all keys in an array to lowercase or uppercase.
-------
+
 case
-------
+
     Optional. Possible values:
         - CASE_LOWER - Default value. Changes the keys to lowercase
         - CASE_UPPER - Changes the keys to uppercase
