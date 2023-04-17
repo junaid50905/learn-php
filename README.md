@@ -344,6 +344,15 @@ Array
 
 ```
 
+#### 14 / array_pop(array)
+The array_pop() function deletes the last element of an array.
+```
+    $arr = [2, 4, 7, 8.4, 2];
+    array_pop($arr);
+    echo "<pre>";
+    print_r($arr);
+```
+
 ## file system
 
 <ol>
