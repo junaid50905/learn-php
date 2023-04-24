@@ -392,6 +392,58 @@ Array
     [3] => 2
 )
 ```
+
+#### 17/ array_filter(array, callbackfunction, flag)
+
+The array_filter() function filters the values of an array using a callback function.
+
+flag	
+
+- ARRAY_FILTER_USE_KEY - pass key as the only argument to callback (instead of the value)
+- ARRAY_FILTER_USE_BOTH - pass both value and key as arguments to callback (instead of the value)
+
+
+```
+<?php
+
+$numbers = [1,2,4,5,6,7,8,11,12,67];
+$even = array_filter($numbers, function($number){
+    return ($number % 2) === 0;
+});
+print_r($even);
+
+```
+another example
+```
+<?php
+
+$names = ['rahim', 'reja', 'raju', 'rahim'];
+$filter_name = array_filter($names, function($name){
+    return $name === 'rahim';
+});
+print_r($filter_name);
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## file system
 
 <ol>
