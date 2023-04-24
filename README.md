@@ -450,9 +450,62 @@ Array
 
 ```
 
+#### 19/ array_keys(array, value, strict)
+The array_keys() function returns an array containing the keys
+```
+<?php
 
+$names = [
+    'manager'=>'rahim',
+    'developer'=> 'reja',
+    'engineer'=>'raju',
+    'developer'=>'rahim',
+    'engineer'=>'junaid',
+    'general_manager'=> 'arman'
+];
 
+$keys = array_keys($names);
+echo "<pre>";
+print_r($keys);
 
+// output
+
+Array
+(
+    [0] => manager
+    [1] => developer
+    [2] => engineer
+    [3] => general_manager
+)
+
+```
+
+Using the value parameter:
+```
+<?php
+
+$names = [
+    'manager'=>'rahim',
+    'developer'=> 'reja',
+    'engineer'=>'raju',
+    'developer'=>'rahim',
+    'engineer'=>'junaid',
+    'general_manager'=> 'arman'
+];
+
+$keys = array_keys($names, 'rahim');
+echo "<pre>";
+print_r($keys);
+
+//output:
+Array
+(
+    [0] => manager
+    [1] => developer
+)
+
+```
+Using the strict parameter, false:
 
 
 
