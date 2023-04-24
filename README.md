@@ -410,7 +410,7 @@ $numbers = [1,2,4,5,6,7,8,11,12,67];
 $even = array_filter($numbers, function($number){
     return ($number % 2) === 0;
 });
-print_r($even);
+print_r($even); // Array ( [1] => 2 [2] => 4 [4] => 6 [6] => 8 [8] => 12 )
 
 ```
 another example
@@ -421,7 +421,7 @@ $names = ['rahim', 'reja', 'raju', 'rahim'];
 $filter_name = array_filter($names, function($name){
     return $name === 'rahim';
 });
-print_r($filter_name);
+print_r($filter_name); // Array ( [0] => rahim [3] => rahim )
 ```
 
 
