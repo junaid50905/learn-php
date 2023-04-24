@@ -422,8 +422,33 @@ $filter_name = array_filter($names, function($name){
     return $name === 'rahim';
 });
 print_r($filter_name); // Array ( [0] => rahim [3] => rahim )
+
 ```
 
+#### 18/ array_values(array)
+The array_values() function returns an array containing all the values of an array.
+
+```
+<?php
+
+$names = ['rahim', 'reja', 'raju', 'rahim', 'junaid', 'arman'];
+$arr_value = array_values($names);
+
+echo "<pre>";
+print_r($arr_value);
+
+// output
+Array
+(
+    [0] => rahim
+    [1] => reja
+    [2] => raju
+    [3] => rahim
+    [4] => junaid
+    [5] => arman
+)
+
+```
 
 
 
